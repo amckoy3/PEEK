@@ -7,49 +7,56 @@
   <button md-button color="primary"  (click)="sidenav.open()">
     Sign In
   </button>
+  <img src ="assets/PEEK.png">
+  <div fxLayout="row" fxlayoutAlign="center center">
+    <md-card class="example-card">
+    <md-card-header>
+      <div md-card-avatar class="example-header-image"></div>
+      <md-card-title>Shiba Inu</md-card-title>
+      <md-card-subtitle>Dog Breed</md-card-subtitle>
+    </md-card-header>
+    <md-card-content>
+      <p>
+        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+        bred for hunting.
+      </p>
+    </md-card-content>
+    <md-card-actions>
+      <button md-button>LIKE</button>
+      <button md-button>SHARE</button>
+    </md-card-actions>
+  </md-card>
+<!--Video--->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/h2JvZOVgKC8"
+      frameborder="0" allowfullscreen></iframe>
+<!--Cast-->
+  <md-card class="example-card">
+  <md-card-header>
+    <md-card-title>Cast</md-card-title>
+    <md-card-subtitle>Dog Breed</md-card-subtitle>
+  </md-card-header>
+  <md-card-content>
+    <p>
+      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+      bred for hunting.
+    </p>
+  </md-card-content>
+  <md-card-actions>
+    <button md-button>LIKE</button>
+    <button md-button>SHARE</button>
+  </md-card-actions>
+</md-card>
+  </div>
   <md-sidenav #sidenav class="sidenav">
     <md-icon class="style">account_circle</md-icon>
     <!--watch list.-->
-    <div class="example-container mat-elevation-z8">
-  <div class="example-header">
-    <md-form-field floatPlaceholder="never">
-      <input mdInput #filter placeholder="Filter users">
-    </md-form-field>
-  </div>
 
-  <md-table #table [dataSource]="dataSource">
 
     <!--- Note that these columns can be defined in any order.
           The actual rendered columns are set as a property on the row definition" -->
 
-    <!-- ID Column -->
-    <ng-container mdColumnDef="userId">
-      <md-header-cell *mdHeaderCellDef> ID </md-header-cell>
-      <md-cell *mdCellDef="let row"> {{row.id}} </md-cell>
-    </ng-container>
-
-    <!-- Progress Column -->
-    <ng-container mdColumnDef="progress">
-      <md-header-cell *mdHeaderCellDef> Progress </md-header-cell>
-      <md-cell *mdCellDef="let row"> {{row.progress}}% </md-cell>
-    </ng-container>
-
-    <!-- Name Column -->
-    <ng-container mdColumnDef="userName">
-      <md-header-cell *mdHeaderCellDef> Name </md-header-cell>
-      <md-cell *mdCellDef="let row"> {{row.name}} </md-cell>
-    </ng-container>
-
-    <!-- Color Column -->
-    <ng-container mdColumnDef="color">
-      <md-header-cell *mdHeaderCellDef> Color </md-header-cell>
-      <md-cell *mdCellDef="let row" [style.color]="row.color"> {{row.color}} </md-cell>
-    </ng-container>
-
-    <md-header-row *mdHeaderRowDef="displayedColumns"></md-header-row>
-    <md-row *mdRowDef="let row; columns: displayedColumns;"></md-row>
-  </md-table>
-</div>
   </md-sidenav>
 
   <div class="sidenav-content">

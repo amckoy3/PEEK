@@ -7,6 +7,8 @@ import {MdButtonModule, MdCheckboxModule} from '@angular/material';
 import {MatButtonModule} from '@angular/material';
 import {MatSidenavModule} from '@angular/material';
 import {MatIconModule} from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatCardModule} from '@angular/material';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import {MatIconModule} from '@angular/material';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
+    FlexLayoutModule,
+    MatCardModule,
     BrowserAnimationsModule,
   ],
   providers: [],
