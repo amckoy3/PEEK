@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import {MdIconRegistry} from '@angular/material';
 import {MdButtonModule, MdCheckboxModule} from '@angular/material';
 import {MatButtonModule} from '@angular/material';
+import {MatSidenavModule} from '@angular/material';
+import {MatIconModule} from '@angular/material';
 
 
 @NgModule({
@@ -14,6 +16,8 @@ import {MatButtonModule} from '@angular/material';
   imports: [
     BrowserModule,
     MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
     BrowserAnimationsModule,
   ],
   providers: [],

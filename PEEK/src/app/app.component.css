@@ -3,3 +3,36 @@
   align-items: center;
   justify-content: space-around;
 }
+.container {
+  width: 100%;
+  height: 800px;
+  display: flex;
+
+}
+.font{
+  font-style: italic;
+}
+.sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidenav {
+  padding: 60px;
+}
+
+.icon{
+  align-items: center;
+  width:60%;
+  height:60%;
+  padding:40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+html, body, material-app, md-sidenav-container, .my-content {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
