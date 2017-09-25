@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import {MdIconRegistry} from '@angular/material';
 import {MdButtonModule, MdCheckboxModule} from '@angular/material';
 import {MatButtonModule} from '@angular/material';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 // Firebase and Login Stuff
 import { AngularFireModule } from 'angularfire2';
@@ -41,10 +43,12 @@ export const firebaseConfig = {
   imports: [
     BrowserModule,
     MatButtonModule,
+    FormsModule,
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
     AngularFireAuthModule,
+    CommonModule,
     routes
   ],
   providers: [AuthGuard],
