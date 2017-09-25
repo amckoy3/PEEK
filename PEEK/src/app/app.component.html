@@ -7,11 +7,11 @@
   <button md-button style="float: right;" color="basic"  (click)="sidenav.open()">
     Sign In
   </button>
-  <div fxLayout="row" class="left">
+  <div fxLayout="row" fxLayout="center center">
 
-  <img src ="assets/PEEKv2.png" width="200" height="100">
+  <img src ="assets/peeklogo.png" width="200" height="100">
 </div>
-  <div fxLayout="row" fxlayoutAlign="center center">
+  <div fxLayout="row" fxlayoutAlign="center center" fxLayout="space-between">
     <md-card class="example-card">
     <md-card-header>
       <md-card-title><p style="font-family:Avenir Next;">Connections
@@ -26,7 +26,7 @@
     </md-card-actions>
   </md-card>
 <!--Video--->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/h2JvZOVgKC8"
+  <iframe width="560" height="500" src="https://www.youtube.com/embed/h2JvZOVgKC8"
       frameborder="0" allowfullscreen></iframe>
 <!--Cast-->
   <md-card class="example-card">
@@ -38,24 +38,34 @@
     <md-card-subtitle></md-card-subtitle>
   </md-card-header>
   <md-card-content>
-  <div class="imgrow">
-
+  <div class="imgrow" fxLayout="center center">
+    <div fxLayout="column">
     <img src="assets/issaraecircle.gif" width="100" height="100">
-    <img src="assets/jayellis.gif" width="100" height="100">
-    <img src="assets/yvonne.gif" width="100" height="100">
-  </div>
-  <div class="imgrow">
     <p style="font-family:Avenir Next;">Issa Rae
     </p>
+
+  </div>
+
+  <div fxLayout="column">
+    <img src="assets/jayellis.gif" width="100" height="100">
     <p style="font-family:Avenir Next;">Jay Ellis
     </p>
+  </div>
+
+<div fxLayout="column">
+    <img src="assets/yvonne.gif" width="100" height="100">
     <p style="font-family:Avenir Next;">Yvonne Oriji
     </p>
   </div>
+  </div>
+
+
+
+
+
   </md-card-content>
   <md-card-actions>
-    <button md-button>LIKE</button>
-    <button md-button>SHARE</button>
+
   </md-card-actions>
 </md-card>
   </div>
@@ -64,9 +74,10 @@
     <!--watch list.-->
       <p class="center" style="font-family:Avenir Next;">Watch List:</p>
     <md-chip-list class="wrap">
+
       <md-chip color="primary" selected="true">Breaking Bad</md-chip>
       <md-chip color="basic" selected="true">Game of Thrones</md-chip>
-    
+
 </md-chip-list>
 
     <!--- Note that these columns can be defined in any order.

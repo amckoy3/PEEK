@@ -11,6 +11,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatCardModule} from '@angular/material';
 import {MatTableModule} from '@angular/material';
 import {MatChipsModule} from '@angular/material';
+import {MatTabsModule} from '@angular/material';
 
 
 
@@ -21,6 +22,7 @@ import {MatChipsModule} from '@angular/material';
   imports: [
     BrowserModule,
     MatButtonModule,
+    MatTabsModule,
     MatChipsModule,
     MatSidenavModule,
     MatIconModule,
