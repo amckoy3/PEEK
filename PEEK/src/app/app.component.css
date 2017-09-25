@@ -6,6 +6,7 @@
 .container {
   width: 100%;
   height: 800px;
+  background-color: white;
   display: flex;
 
 }
@@ -18,11 +19,12 @@
   align-items: center;
   justify-content: center;
 }
-
 .sidenav {
-  padding: 60px;
+  padding: 80px;
 }
-
+.style{
+  padding:50px;
+}
 .icon{
   align-items: center;
   width:60%;
@@ -35,4 +37,30 @@ html, body, material-app, md-sidenav-container, .my-content {
   margin: 0;
   width: 100%;
   height: 100%;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.example-header {
+  min-height: 64px;
+  display: flex;
+  align-items: baseline;
+  padding: 8px 24px 0;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  flex-grow: 1;
+  margin-left: 32px;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
 }
