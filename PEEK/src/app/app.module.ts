@@ -9,6 +9,9 @@ import {MatSidenavModule} from '@angular/material';
 import {MatIconModule} from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatCardModule} from '@angular/material';
+import {MatTableModule} from '@angular/material';
+import {MatChipsModule} from '@angular/material';
+
 
 
 @NgModule({
@@ -18,10 +21,12 @@ import {MatCardModule} from '@angular/material';
   imports: [
     BrowserModule,
     MatButtonModule,
+    MatChipsModule,
     MatSidenavModule,
     MatIconModule,
     FlexLayoutModule,
     MatCardModule,
+    MatTableModule,
     BrowserAnimationsModule,
   ],
   providers: [],
