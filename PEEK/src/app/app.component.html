@@ -14,7 +14,7 @@
   <div fxLayout="row" fxlayoutAlign="center center">
     <md-card class="example-card">
     <md-card-header>
-      <md-card-title><p style="font-family:Avenir Next;">Recently Liked Shows
+      <md-card-title><p style="font-family:Avenir Next;">Connections
       </p></md-card-title>
 
     </md-card-header>
@@ -38,10 +38,19 @@
     <md-card-subtitle></md-card-subtitle>
   </md-card-header>
   <md-card-content>
-  <div fxLayout="row">
+  <div class="imgrow">
+
     <img src="assets/issaraecircle.gif" width="100" height="100">
     <img src="assets/jayellis.gif" width="100" height="100">
     <img src="assets/yvonne.gif" width="100" height="100">
+  </div>
+  <div class="imgrow">
+    <p style="font-family:Avenir Next;">Issa Rae
+    </p>
+    <p style="font-family:Avenir Next;">Jay Ellis
+    </p>
+    <p style="font-family:Avenir Next;">Yvonne Oriji
+    </p>
   </div>
   </md-card-content>
   <md-card-actions>
@@ -51,11 +60,13 @@
 </md-card>
   </div>
   <md-sidenav #sidenav class="sidenav" position="end">
-    <md-icon class="style">account_circle</md-icon>
+    <img src="assets/avatar.png" width="100" height="100" class="center">
     <!--watch list.-->
-    <md-chip-list >
-      <md-chip color="primary" selected="true">Primary fish</md-chip>
-      <md-chip color="accent" selected="true">Accent fish</md-chip>
+      <p class="center" style="font-family:Avenir Next;">Watch List:</p>
+    <md-chip-list class="wrap">
+      <md-chip color="primary" selected="true">Breaking Bad</md-chip>
+      <md-chip color="basic" selected="true">Game of Thrones</md-chip>
+    
 </md-chip-list>
 
     <!--- Note that these columns can be defined in any order.

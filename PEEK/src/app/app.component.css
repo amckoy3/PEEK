@@ -12,19 +12,16 @@
 }
 .center{
   text-align: center;
+  display: block;
+  margin: auto;
 
 }
-.tablecontainer {
-  display: flex;
-  flex-direction: column;
-  max-height: 500px;
-  min-width: 300px;
+
+.imgrow{
+  justify-content: space-between;
+  flex-direction: column | row-reverse | column | column-reverse;
 }
 
-.mat-table {
-  overflow: auto;
-  max-height: 500px;
-}
 .font{
   font-style: italic;
 }
