@@ -11,7 +11,7 @@ import * as firebase from 'firebase/app';
   styleUrls: ['./members.component.css']
 })
 
-export class MembersComponent implements OnInit {
+export class MembersComponent {
   name: any;
 
   constructor(public afAuth: AngularFireAuth, private router: Router) {
@@ -26,9 +26,6 @@ export class MembersComponent implements OnInit {
     this.afAuth.auth.signOut();
     console.log('logged out');
     this.router.navigateByUrl('/login');
-  }
-
-  ngOnInit() {
   }
 
 }
