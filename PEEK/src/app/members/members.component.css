@@ -26,8 +26,6 @@ header {
 h2 {
     margin:0;
 }
-
-
 @media (max-width: 600px) {
     #page {
         padding:1em;
@@ -36,4 +34,97 @@ h2 {
         width:90%;
         margin-left: -45%;
     }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container {
+  width: 100%;
+  height: 810px;
+  background-color: white;
+  display: flex;
+
+}
+.center{
+  text-align: center;
+  display: block;
+  margin: auto;
+
+}
+
+.imgrow{
+  justify-content: space-between;
+  flex-direction: column | row-reverse | column | column-reverse;
+}
+
+.font{
+  font-style: italic;
+}
+.sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.sidenav {
+  padding: 80px;
+}
+.style{
+  padding:50px;
+}
+.icon{
+  align-items: center;
+  width:60%;
+  height:60%;
+  padding:40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+html, body, material-app, md-sidenav-container, .my-content {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.left{
+  align-items: baseline;
+}
+.right{
+  align-items: right;
+}
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+.example-card {
+  width: 400px;
+
+}
+.flexcontainer{
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+.example-header-image {
+  background-size: cover;
+}
+.example-header {
+  min-height: 64px;
+  display: flex;
+  align-items: baseline;
+  padding: 8px 24px 0;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  flex-grow: 1;
+  margin-left: 32px;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
 }

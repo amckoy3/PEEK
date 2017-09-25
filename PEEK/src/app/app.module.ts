@@ -7,6 +7,10 @@ import {MdButtonModule, MdCheckboxModule} from '@angular/material';
 import {MatButtonModule} from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import {MatCardModule} from '@angular/material';
+import {MatSidenavModule} from '@angular/material';
+import {MatChipsModule} from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 // Firebase and Login Stuff
 import { AngularFireModule } from 'angularfire2';
@@ -44,6 +48,10 @@ export const firebaseConfig = {
     BrowserModule,
     MatButtonModule,
     FormsModule,
+    MatSidenavModule,
+    FlexLayoutModule,
+    MatChipsModule,
+    MatCardModule,
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,

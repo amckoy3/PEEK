@@ -1,10 +1,85 @@
-<div class="form-container" id="toolbar">
-    <header>
-      <button (click)="logout()" class="basic-btn">Logout</button>
-    </header>
-    <div id="page">
-       <h2>Peek</h2>
 
+
+    <md-sidenav-container class="container">
+      <button md-button style="float: right;" color="basic"  (click)="sidenav.open()">
+        Sign In
+      </button>
+      <div fxLayout="row" class="left">
+
+      <img src ="assets/PEEKv2.png" width="200" height="100">
     </div>
-    
-</div>
+      <div fxLayout="row" fxlayoutAlign="center center">
+        <md-card class="example-card">
+        <md-card-header>
+          <md-card-title><p style="font-family:Avenir Next;">Connections
+          </p></md-card-title>
+
+        </md-card-header>
+        <md-card-content>
+
+        </md-card-content>
+        <md-card-actions>
+          <button md-button>SHARE</button>
+        </md-card-actions>
+      </md-card>
+    <!--Video--->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/h2JvZOVgKC8"
+          frameborder="0" allowfullscreen></iframe>
+    <!--Cast-->
+      <md-card class="example-card">
+      <md-card-header >
+        <p class="center" style="font-family:Avenir Next;">Cast</p>
+        <md-card-title>
+
+          </md-card-title>
+        <md-card-subtitle></md-card-subtitle>
+      </md-card-header>
+      <md-card-content>
+      <div class="imgrow">
+
+        <img src="assets/issaraecircle.gif" width="100" height="100">
+        <img src="assets/jayellis.gif" width="100" height="100">
+        <img src="assets/yvonne.gif" width="100" height="100">
+      </div>
+      <div class="imgrow">
+        <p style="font-family:Avenir Next;">Issa Rae
+        </p>
+        <p style="font-family:Avenir Next;">Jay Ellis
+        </p>
+        <p style="font-family:Avenir Next;">Yvonne Oriji
+        </p>
+      </div>
+      </md-card-content>
+      <md-card-actions>
+        <button md-button>LIKE</button>
+        <button md-button>SHARE</button>
+      </md-card-actions>
+    </md-card>
+      </div>
+      <md-sidenav #sidenav class="sidenav" position="end">
+        <img src="assets/avatar.png" width="100" height="100" class="center">
+        <!--watch list.-->
+          <p class="center" style="font-family:Avenir Next;">Watch List:</p>
+        <md-chip-list class="wrap">
+          <md-chip color="primary" selected="true">Breaking Bad</md-chip>
+          <md-chip color="basic" selected="true">Game of Thrones</md-chip>
+
+    </md-chip-list>
+
+        <!--- Note that these columns can be defined in any order.
+              The actual rendered columns are set as a property on the row definition" -->
+
+      </md-sidenav>
+
+      <div class="sidenav-content">
+        <md-icon>thumb_up</md-icon>
+      </div>
+
+    </md-sidenav-container>
+
+
+
+<!--The content below is only a placeholder and can be replaced. <a md-raised-button routerLink=".">Link</a>-->
+
+
+<!--Login SideNav.-->
