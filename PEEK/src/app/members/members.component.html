@@ -1,102 +1,115 @@
 <md-sidenav-container class="container">
-<div fxLayout="row" class="left">
-  <img src ="assets/peeklogo.png" width="200" height="100">
-  <div class="sidenav-content">
-      <button md-button style="float: right;" color="basic"  (click)="sidenav.open()">
+  <div fxLayout="row" class="left">
+    <img src="assets/peeklogo.png" width="200" height="100">
+    <div class="sidenav-content">
+      <button md-button style="float: right;" color="basic" (click)="sidenav.open()">
       <img src="assets/avatar.png" width="50" height="50">
       </button>
     </div>
 
-      </div>
+  </div>
 
 
-<div fxLayout="row" class="left">
-</div>
-      <div fxLayout="row" fxlayoutAlign="center center" fxLayout="space-between">
-        <md-card class="example-card">
-        <md-card-header>
-          <p class="center" style="font-family:Avenir Next;">Connections
-          </p>
-          <md-card-title>
+  <div fxLayout="row">
+  </div>
+  <div class="middle" >
+    <div class="flex-item-one">
+      <md-card class="example-card">
+      <md-card-header>
+        <p class="center" style="font-family:Avenir Next;">Connections
+        </p>
+        <md-card-title>
         </md-card-title>
 
 
-        </md-card-header>
-        <md-card-content >
-          <div class="imgcol">
-       <div md-card-avatar class="example-header-image"></div>
-       <div md-card-avatar class="example-header-image"></div>
-       <div md-card-avatar class="example-header-image"></div>
-     </div>
-        </md-card-content>
-        <md-card-actions>
+      </md-card-header>
+      <md-card-content>
+        <div class="imgcol">
+          <div md-card-avatar class="example-header-image"></div>
+          <div md-card-avatar class="example-header-image"></div>
+          <div md-card-avatar class="example-header-image"></div>
+        </div>
+      </md-card-content>
+      <md-card-actions>
 
-        </md-card-actions>
+      </md-card-actions>
       </md-card>
-    <!--Video-->
-    <div class="video-container">
-     <iframe width="560" height="480" src="https://www.youtube.com/embed/h2JvZOVgKC8" frameborder="0" allowfullscreen></iframe>
+      <!--Video-->
+    </div>
+
+    <div class="flex-item-two">
+      <iframe width="560" height="480" src="https://www.youtube.com/embed/h2JvZOVgKC8" frameborder="0" allowfullscreen></iframe>
     </div>
     <!--Cast-->
-      <md-card class="example-card">
-      <md-card-header >
+    <div class="flex-item-three" >
+    <md-card class="example-card">
+      <md-card-header>
         <p class="center" style="font-family:Avenir Next;">Cast</p>
         <md-card-title>
 
-          </md-card-title>
+        </md-card-title>
         <md-card-subtitle></md-card-subtitle>
       </md-card-header>
       <md-card-content>
-      <div class="imgrow" fxLayout="center center">
+        <div class="imgrow" fxLayout="center center">
 
-        <div fxLayout="column">
-        <img src="assets/issaraecircle.gif" width="100" height="100">
-        <p style="font-family:Avenir Next;">Issa Rae
-        </p>
+          <div fxLayout="column">
+            <img src="assets/issaraecircle.gif" width="100" height="100">
+            <p style="font-family:Avenir Next;">Issa Rae
+            </p>
 
-      </div>
+          </div>
 
-      <div fxLayout="column">
-        <img src="assets/jayellis.gif" width="100" height="100">
-        <p style="font-family:Avenir Next;">Jay Ellis
-        </p>
-      </div>
+          <div fxLayout="column">
+            <img src="assets/jayellis.gif" width="100" height="100">
+            <p style="font-family:Avenir Next;">Jay Ellis
+            </p>
+          </div>
 
-    <div fxLayout="column">
-        <img src="assets/yvonne.gif" width="100" height="100">
-        <p style="font-family:Avenir Next;">Yvonne Oriji
-        </p>
-      </div>
-      </div>
+          <div fxLayout="column">
+            <img src="assets/yvonne.gif" width="100" height="100">
+            <p style="font-family:Avenir Next;">Yvonne Oriji
+            </p>
+          </div>
+        </div>
       </md-card-content>
       <md-card-actions>
 
       </md-card-actions>
     </md-card>
-      </div>
-      <md-sidenav #sidenav class="sidenav" position="end">
-          <button (click)="logout()" class="basic-btn">Logout</button>
-        <img src="assets/avatar.png" width="100" height="100" class="center">
-        <!--watch list.-->
-          <p class="center" style="font-family:Avenir Next;">Watch List:</p>
-        <md-chip-list class="wrap">
-          <md-chip color="primary" selected="true">Breaking Bad</md-chip>
-          <md-chip color="basic" selected="true">Game of Thrones</md-chip>
+    </div>
+  </div>
+  <md-sidenav #sidenav class="sidenav" position="end">
+    <button (click)="logout()" class="basic-btn">Logout</button>
+    <img src="assets/avatar.png" width="100" height="100" class="center">
+    <!--watch list.-->
+    <p class="center" style="font-family:Avenir Next;">Watch List:</p>
+    <md-chip-list class="wrap">
+      <md-chip color="primary" selected="true">Breaking Bad</md-chip>
+      <md-chip color="basic" selected="true">Game of Thrones</md-chip>
 
     </md-chip-list>
 
-        <!--- Note that these columns can be defined in any order.
+    <!--- Note that these columns can be defined in any order.
               The actual rendered columns are set as a property on the row definition" -->
 
-      </md-sidenav>
+  </md-sidenav>
 
-<div class="iconcenter">
-        <md-icon>sentiment_very_satisfied</md-icon>
-        <md-icon>sentiment_very_dissatisfied</md-icon>
+  <div class="iconcenter">
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <div>
+        <i class="material-icons md-48">sentiment_very_satisfied</i>
+        <figcaption>YAY</figcaption>
       </div>
+      <div>
+        <i class="material-icons md-48">sentiment_very_dissatisfied</i>
+        <figcaption>NAY</figcaption>
+      </div>
+    </div>
+  </div>
 
 
-    </md-sidenav-container>
+</md-sidenav-container>
 
 
 <!--The content below is only a placeholder and can be replaced. <a md-raised-button routerLink=".">Link</a>-->
