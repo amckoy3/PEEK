@@ -16,6 +16,10 @@ PEEK is a website used to find television shows or films that are worthy of bing
 * Implementing an algorithm that will suggest videos based on user's liked and disliked videos
 * A user profile page which the user can design to their liking. It will display television series and films that the user liked and or disliked
 
+### Branches
+For the best functionality, launch the site in the master branch.
+* Master contains log in/log out, however the layout has some bugs
+* old-master contains functioning layout but the display is altered on different PC's. Also doesn't contain the log in feature
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
 
