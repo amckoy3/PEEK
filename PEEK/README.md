@@ -1,6 +1,6 @@
 # PEEK
 
-PEEK is a resource to find to new shows that are worthy of binge watching. PEEK provides the pilot episode of each tv show. After watching the pilot, the user has the option of clicking like or skipping. Liking a Tv show automatically adds it to the users watch list. The site also displays the leading cast and users that liked the same episode
+PEEK is a website used to find television shows or films that are worthy of binge watching. PEEK displays the pilot episodes and movie trailers of popular shows. After watching the pilot or trailer, the user has the option of clicking like or dislike. 'Liking' a video adds the show to the user's watchlist and provides the user with streaming services to the series or film.'Disliking' a video will show another trailer or pilot episode for the user to view. The website will display relevant information pertaining to the video such as the leading actors/actress. Additionally, the site sports a 'Connections' list. The connections list consist of users who have liked the particular video the user is currently watching. The user can then view that persons profile and have the option of adding them as a friend.
 
 ### Team
 * Ositanachi Otugo
@@ -12,16 +12,25 @@ PEEK is a resource to find to new shows that are worthy of binge watching. PEEK 
 * User Profile
 * Friends
 
+### Future Features:
+* Implementing an algorithm that will suggest videos based on user's liked and disliked videos
+* A user profile page which the user can design to their liking. It will display television series and films that the user liked and or disliked
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Required Modules
+Run `npm install angular-material --save`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `npm install @angular/flex-layout@latest --save`
 
+Run `npm install @angular/animations --save`
+
+Run `sudo npm install firebase angularfire2 --save`
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
