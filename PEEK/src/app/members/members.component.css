@@ -1,50 +1,7 @@
-#toolbar {
-    padding:0;
-    width:70%;
-    margin-left:-35%;
-}
-
-header {
-    background:#3B8598;
-    width:100%;
-}
-
-.basic-btn {
-    width:100px;
-    margin:0;
-}
-
-#page {
-    padding:3em;
-    margin:0;
-}
-
-#page img {
-    margin-top:30px;
-}
-
-h2 {
-    margin:0;
-}
-@media (max-width: 600px) {
-    #page {
-        padding:1em;
-    }
-    #toolbar {
-        width:90%;
-        margin-left: -45%;
-    }
-}
-
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
 .container {
   width: 100%;
   height: 810px;
-  background-color: white;
+  background-color: #fff68f;
   display: flex;
 
 }
@@ -54,20 +11,31 @@ h2 {
   margin: auto;
 
 }
+.iconcenter{
+  text-align: center;
+  display: block;
+  margin: auto;
 
+}
+.example-header-image {
+  background-image: url(/assets/avatar.png);
+  background-size: cover;
+}
 .imgrow{
   justify-content: space-between;
   flex-direction: column | row-reverse | column | column-reverse;
 }
-
+.imgcol{
+  justify-content: space-between;
+  flex-direction: column;
+}
 .font{
   font-style: italic;
 }
 .sidenav-content {
-  display: flex;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  align-items: right;
+
 }
 .sidenav {
   padding: 80px;
@@ -89,7 +57,7 @@ html, body, material-app, md-sidenav-container, .my-content {
   height: 100%;
 }
 .left{
-  align-items: baseline;
+  align-items: left;
 }
 .right{
   align-items: right;
@@ -106,9 +74,7 @@ html, body, material-app, md-sidenav-container, .my-content {
 .flexcontainer{
   flex-direction: row | row-reverse | column | column-reverse;
 }
-.example-header-image {
-  background-size: cover;
-}
+
 .example-header {
   min-height: 64px;
   display: flex;
@@ -127,19 +93,4 @@ html, body, material-app, md-sidenav-container, .my-content {
 .mat-table {
   overflow: auto;
   max-height: 500px;
-}
-
-.video-container {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-}
-
-.video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }

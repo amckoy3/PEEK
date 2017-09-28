@@ -1,20 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-button {
-    background:#008FEF;
-    color:white;
-    padding: 1.2em;
-    width:300px;
-    text-align:center;
-    font-size:1.2em;
-    margin-bottom: 30px;
-    cursor:pointer;
-}
+
 
 body {
     background:#fff68f;
-    padding-top:4em;
 }
 
 .form-container {
@@ -26,13 +16,7 @@ body {
     margin-left:-250px;
 }
 
-button {
-    padding:1.2em;
-    width:100%;
-    cursor:pointer;
-    margin-bottom:15px;
-    font-size:1.3em;
-}
+
 
 .basic-btn {
     background: #3B8598;

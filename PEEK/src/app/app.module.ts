@@ -11,6 +11,7 @@ import {MatCardModule} from '@angular/material';
 import {MatSidenavModule} from '@angular/material';
 import {MatChipsModule} from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatIconModule} from '@angular/material';
 
 // Firebase and Login Stuff
 import { AngularFireModule } from 'angularfire2';
@@ -50,6 +51,7 @@ export const firebaseConfig = {
     FormsModule,
     MatSidenavModule,
     FlexLayoutModule,
+    MatIconModule,
     MatChipsModule,
     MatCardModule,
     BrowserAnimationsModule,
