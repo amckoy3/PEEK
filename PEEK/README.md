@@ -1,6 +1,6 @@
 # PEEK
 
-PEEK is a resource to find to new shows that are worthy of binge watching. PEEK provides the pilot episode of each tv show. After watching the pilot, the user has the option of clicking like or skipping. Liking a Tv show automatically adds it to the users watch list. The site also displays the leading cast and users that liked the same episode
+PEEK is a website used to find television shows worth of binge watching or films you will love. PEEK displays pilot of television shows and movie trailers. After watching the pilot or trailer, the user has the option of clicking like or dislike. 'Liking' a video adds the series or film to the user's watchlist and provides the user with streaming service the series or film appears on. The site also displays relevant information for the video such as the leading actors/actress. Additionally, the site sports a 'Connections' list. The connections list consist of people the users has added as friends and also displays people who have liked the particular video the user is currently watching.
 
 ### Team
 * Ositanachi Otugo
@@ -18,9 +18,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Required Modules
+Run npm install angular-material --save
+Run npm install @angular/flex-layout@latest --save
+Run npm install @angular/animations --save
 
 ## Build
 
