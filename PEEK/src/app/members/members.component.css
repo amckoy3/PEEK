@@ -1,0 +1,166 @@
+.container {
+  /*width: 100%;
+  height: 810px;
+  display: flex;*/
+
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffc1;
+}
+
+.middle {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: space-between;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.flex-item-one {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  }
+
+.flex-item-two {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  }
+
+.flex-item-three {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  object-fit: inherit;
+
+}
+
+.center{
+  text-align: center;
+  display: block;
+  margin: auto;
+
+}
+.iconcenter{
+  text-align: center;
+  display: block;
+  margin: auto;
+
+}
+.example-header-image {
+  background-image: url(/assets/avatar.png);
+  background-size: cover;
+}
+.imgrow{
+  justify-content: space-between;
+  flex-direction: column | row-reverse | column | column-reverse;
+}
+
+.imgcol{
+  justify-content: space-between;
+  flex-direction: column;
+}
+.font{
+  font-style: italic;
+}
+.sidenav-content {
+  width: 100%;
+  align-items: center;
+
+}
+.sidenav {
+  padding: 80px;
+}
+.style{
+  padding:50px;
+}
+.icon{
+  align-items: center;
+  width:60%;
+  height:60%;
+  padding:40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+html, body, material-app, md-sidenav-container, .my-content {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.left{
+  align-items: left;
+}
+.right{
+  align-items: right;
+}
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.example-card {
+  width: 400px;
+  height: 100%;
+  margin: 10px;
+
+}
+
+.example-header {
+  min-height: 64px;
+  display: flex;
+  align-items: baseline;
+  padding: 8px 24px 0;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  flex-grow: 1;
+  margin-left: 32px;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
